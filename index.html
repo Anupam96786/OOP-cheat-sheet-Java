@@ -5,28 +5,13 @@
     <meta charset="UTF-8">
     <title>OOP Cheat Sheet | Java</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-</head>
-
-<body>
-    <a href="https://github.com/Anupam96786/OOP-cheat-sheet-Java" class="github-corner"
-        aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250"
-            style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
-            <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
-            <path
-                d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
-                fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
-            <path
-                d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
-                fill="currentColor" class="octo-body"></path>
-        </svg></a>
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <style>
         .github-corner:hover .octo-arm {
             animation: octocat-wave 560ms ease-in-out
         }
 
         @keyframes octocat-wave {
-
             0%,
             100% {
                 transform: rotate(0)
@@ -43,7 +28,7 @@
             }
         }
 
-        @media (max-width:500px) {
+        @media (max-width: 500px) {
             .github-corner:hover .octo-arm {
                 animation: none
             }
@@ -53,711 +38,727 @@
             }
         }
     </style>
-    <div class="container-md p-2">
-        <div class="row my-3">
-            <h1 class="text-center">
-                OOP Cheat Sheet in JAVA
-            </h1>
-        </div>
+</head>
+
+<body>
+<a href="https://github.com/Anupam96786/OOP-cheat-sheet-Java" class="github-corner"
+   aria-label="View source on GitHub">
+    <svg width="80" height="80" viewBox="0 0 250 250"
+         style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path
+                d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+                fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path
+                d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+                fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+<div class="container-md p-2">
+    <div class="row my-3">
+        <h1 class="text-center">
+            OOP Cheat Sheet in JAVA
+        </h1>
     </div>
-    <div class="container-md border rounded p-2">
-        <div class="row">
-            <div class="accordion accordion-flush" id="accordionFlushExample">
+</div>
+<div class="container-md border rounded p-2">
+    <div class="row">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-1" aria-expanded="false">
-                            What is a class?
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-1" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                A class is a user defined blueprint or prototype from which objects are created. It
-                                represents the set of properties or methods that are common to all objects of one type.
-                            </p>
-                        </div>
+                        What is a class?
+                    </button>
+                </h2>
+                <div id="flush-collapse-1" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            A class is a user defined blueprint or prototype from which objects are created. It
+                            represents the set of properties or methods that are common to all objects of one type.
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-2" aria-expanded="false">
-                            What is an object?
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-2" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                An object is a real world entity that is an instance of a class. Each object has an
-                                identity, a behaviour and a state. The state is stored in variables or data memebers and
-                                the behaviour is executed as method or functions.
-                            </p>
-                        </div>
+                        What is an object?
+                    </button>
+                </h2>
+                <div id="flush-collapse-2" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            An object is a real world entity that is an instance of a class. Each object has an
+                            identity, a behaviour and a state. The state is stored in variables or data memebers and
+                            the behaviour is executed as method or functions.
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-3" aria-expanded="false">
-                            Procedure oriented vs Object oriented
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-3" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <div class="container border p-3">
-                                <div class="row">
-                                    <div class="col-6">
-                                        Procedure oriented
-                                    </div>
-                                    <div class="col-6">
-                                        Object oriented
-                                    </div>
+                        Procedure oriented vs Object oriented
+                    </button>
+                </h2>
+                <div id="flush-collapse-3" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div class="container border p-3">
+                            <div class="row">
+                                <div class="col-6">
+                                    Procedure oriented
                                 </div>
-                                <hr>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <ul class="m-0">
-                                            <li>
-                                                Basic runtime entity is function.
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-6">
-                                        <ul class="m-0">
-                                            <li>
-                                                Basic runtime entity is object.
-                                            </li>
-                                        </ul>
-                                    </div>
+                                <div class="col-6">
+                                    Object oriented
                                 </div>
-                                <hr>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <ul class="m-0">
-                                            <li>
-                                                Does not have any access specifier.
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-6">
-                                        <ul class="m-0">
-                                            <li>
-                                                Has three access specifiers namely Public, Private and Protected.
-                                            </li>
-                                        </ul>
-                                    </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="m-0">
+                                        <li>
+                                            Basic runtime entity is function.
+                                        </li>
+                                    </ul>
                                 </div>
-                                <hr>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <ul class="m-0">
-                                            <li>
-                                                No data hiding is possible. Hence, Security is not possible.
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-6">
-                                        <ul class="m-0">
-                                            <li>
-                                                Provides data hiding. Hense, secured programs are possible.
-                                            </li>
-                                        </ul>
-                                    </div>
+                                <div class="col-6">
+                                    <ul class="m-0">
+                                        <li>
+                                            Basic runtime entity is object.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="m-0">
+                                        <li>
+                                            Does not have any access specifier.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="m-0">
+                                        <li>
+                                            Has three access specifiers namely Public, Private and Protected.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="m-0">
+                                        <li>
+                                            No data hiding is possible. Hence, Security is not possible.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="m-0">
+                                        <li>
+                                            Provides data hiding. Hense, secured programs are possible.
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-4" aria-expanded="false">
-                            Drawback of procedure oriented technique
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-4" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <ul>
-                                <li>
-                                    No data hiding is possible. Hence, Security is not possible.
-                                </li>
-                                <li>
-                                    Difficult to relate with real-world objects.
-                                </li>
-                                <li>
-                                    The Procedural code is often not reusable, which may pose the need to recreate the
-                                    code if is needed to use in another application.
-                                </li>
-                            </ul>
-                        </div>
+                        Drawback of procedure oriented technique
+                    </button>
+                </h2>
+                <div id="flush-collapse-4" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>
+                                No data hiding is possible. Hence, Security is not possible.
+                            </li>
+                            <li>
+                                Difficult to relate with real-world objects.
+                            </li>
+                            <li>
+                                The Procedural code is often not reusable, which may pose the need to recreate the
+                                code if is needed to use in another application.
+                            </li>
+                        </ul>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-5" aria-expanded="false">
-                            Benefits of OOP
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-5" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <ul>
-                                <li>
-                                    For modularity it is easier to understand, maintain and troubleshoot.
-                                </li>
-                                <li>
-                                    Reuse of code through inheritance.
-                                </li>
-                                <li>
-                                    Security is possible.
-                                </li>
-                                <li>
-                                    Flexibility through polymorphism.
-                                </li>
-                                <li>
-                                    Effective problem-solving.
-                                </li>
-                            </ul>
-                        </div>
+                        Benefits of OOP
+                    </button>
+                </h2>
+                <div id="flush-collapse-5" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>
+                                For modularity it is easier to understand, maintain and troubleshoot.
+                            </li>
+                            <li>
+                                Reuse of code through inheritance.
+                            </li>
+                            <li>
+                                Security is possible.
+                            </li>
+                            <li>
+                                Flexibility through polymorphism.
+                            </li>
+                            <li>
+                                Effective problem-solving.
+                            </li>
+                        </ul>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-6" aria-expanded="false">
-                            Special feature of OOP / Three principles of OOP
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-6" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <ul>
-                                <li>
-                                    <strong>
-                                        Encapsulation & Data Abstraction
-                                    </strong>:-
-                                    <p>
-                                        <i>Encapsulation</i> is the wrapping up of data under a single unit. It is a
-                                        protective shield that prevents the data from being accessed by the code outside
-                                        this shield.
-                                    </p>
-                                    <p>
-                                        <i>Data Abstraction</i> is the property by which only the essential details are
-                                        displayed to the user. The non-essentials units are not displayed to the user.
-                                        Ex: A car is viewed as a car rather than its individual components.
-                                    </p>
-                                </li>
-                                <li>
-                                    <strong>
-                                        Polymorphism
-                                    </strong>
-                                    <p>
-                                        <i>Polymorphism</i> is the ability of an object to take on more than one form.
-                                        The most
-                                        common use of polymorphism in OOP occurs when a parent class reference is used
-                                        to refer to a child class object.
-                                        Eg- 1) function overloading 2) Polymorphism in operators- '+' is used for
-                                        addition as well as
-                                        while printing an output
-                                    </p>
-                                </li>
-                                <li>
-                                    <strong>
-                                        inheritance
-                                    </strong>
-                                    <p>
-                                        <i>inheritance</i> is the process by which a subclass or child class inherits or
-                                        acquires the properties of a superclass or parent class.
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
+                        Special feature of OOP / Three principles of OOP
+                    </button>
+                </h2>
+                <div id="flush-collapse-6" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>
+                                <strong>
+                                    Encapsulation & Data Abstraction
+                                </strong>:-
+                                <p>
+                                    <i>Encapsulation</i> is the wrapping up of data under a single unit. It is a
+                                    protective shield that prevents the data from being accessed by the code outside
+                                    this shield.
+                                </p>
+                                <p>
+                                    <i>Data Abstraction</i> is the property by which only the essential details are
+                                    displayed to the user. The non-essentials units are not displayed to the user.
+                                    Ex: A car is viewed as a car rather than its individual components.
+                                </p>
+                            </li>
+                            <li>
+                                <strong>
+                                    Polymorphism
+                                </strong>
+                                <p>
+                                    <i>Polymorphism</i> is the ability of an object to take on more than one form.
+                                    The most
+                                    common use of polymorphism in OOP occurs when a parent class reference is used
+                                    to refer to a child class object.
+                                    Eg- 1) function overloading 2) Polymorphism in operators- '+' is used for
+                                    addition as well as
+                                    while printing an output
+                                </p>
+                            </li>
+                            <li>
+                                <strong>
+                                    inheritance
+                                </strong>
+                                <p>
+                                    <i>inheritance</i> is the process by which a subclass or child class inherits or
+                                    acquires the properties of a superclass or parent class.
+                                </p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-7" aria-expanded="false">
-                            Features of Java
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-7" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <ul>
-                                <li>Object Oriented</li>
-                                <li>Robust</li>
-                                <li>Platform independent</li>
-                                <li>Secure</li>
-                                <li>Portable</li>
-                            </ul>
-                        </div>
+                        Features of Java
+                    </button>
+                </h2>
+                <div id="flush-collapse-7" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Object Oriented</li>
+                            <li>Robust</li>
+                            <li>Platform independent</li>
+                            <li>Secure</li>
+                            <li>Portable</li>
+                        </ul>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-8" aria-expanded="false">
-                            What is data abstraction
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-8" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                <i>Data Abstraction</i> is defined as the process of reducing the object to its essence
-                                so that
-                                only the necessary characteristics are exposed to the users. Abstraction defines an
-                                object in terms of its properties (attributes), behavior (methods), and interfaces
-                                (means of communicating with other objects).
-                            </p>
-                        </div>
+                        What is data abstraction
+                    </button>
+                </h2>
+                <div id="flush-collapse-8" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            <i>Data Abstraction</i> is defined as the process of reducing the object to its essence
+                            so that
+                            only the necessary characteristics are exposed to the users. Abstraction defines an
+                            object in terms of its properties (attributes), behavior (methods), and interfaces
+                            (means of communicating with other objects).
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-9" aria-expanded="false">
-                            Java garbage collection vs C garbage collection
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-9" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <div class="container border p-3">
-                                <div class="row">
-                                    <div class="col-6">
-                                        C garbage collection
-                                    </div>
-                                    <div class="col-6">
-                                        Java garbage collection
-                                    </div>
+                        Java garbage collection vs C garbage collection
+                    </button>
+                </h2>
+                <div id="flush-collapse-9" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div class="container border p-3">
+                            <div class="row">
+                                <div class="col-6">
+                                    C garbage collection
                                 </div>
-                                <hr>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <ul class="m-0">
-                                            <li>
-                                                Manual garbage collection
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-6">
-                                        <ul class="m-0">
-                                            <li>
-                                                Automatic garbage collection
-                                            </li>
-                                        </ul>
-                                    </div>
+                                <div class="col-6">
+                                    Java garbage collection
                                 </div>
-                                <hr>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <ul class="m-0">
-                                            <li>
-                                                <strong>delete</strong> keyword is used to release dynamically allocated
-                                                memory.
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-6">
-                                        <ul class="m-0">
-                                            <li>
-                                                There is no such a keyword in Java as its garbage collection is
-                                                automatic.
-                                            </li>
-                                        </ul>
-                                    </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="m-0">
+                                        <li>
+                                            Manual garbage collection
+                                        </li>
+                                    </ul>
                                 </div>
-                                <hr>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <ul class="m-0">
-                                            <li>
-                                                There is no garbage collector to clear in C.
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-6">
-                                        <ul class="m-0">
-                                            <li>
-                                                In Java to clear the garbage collector we use
-                                                <strong>System.gc()</strong>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                <div class="col-6">
+                                    <ul class="m-0">
+                                        <li>
+                                            Automatic garbage collection
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="m-0">
+                                        <li>
+                                            <strong>delete</strong> keyword is used to release dynamically allocated
+                                            memory.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="m-0">
+                                        <li>
+                                            There is no such a keyword in Java as its garbage collection is
+                                            automatic.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="m-0">
+                                        <li>
+                                            There is no garbage collector to clear in C.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="m-0">
+                                        <li>
+                                            In Java to clear the garbage collector we use
+                                            <strong>System.gc()</strong>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-10" aria-expanded="false">
-                            How is java platform independent
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-10" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                Java is write-once run-anywhere language. When source code is compiled, compiler
-                                generates a bytecode which has nothing to do with a particular architecture. That
-                                bytecode can be used in any platform and interpreted according to the platform.
-                            </p>
-                        </div>
+                        How is java platform independent
+                    </button>
+                </h2>
+                <div id="flush-collapse-10" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            Java is write-once run-anywhere language. When source code is compiled, compiler
+                            generates a bytecode which has nothing to do with a particular architecture. That
+                            bytecode can be used in any platform and interpreted according to the platform.
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-11" aria-expanded="false">
-                            What is java virtual machine
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-11" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                JVM is a virtual machine which compiles java source code into platform independent
-                                bytecode and interprets bytecode into platform specific machine level code.
-                            </p>
-                        </div>
+                        What is java virtual machine
+                    </button>
+                </h2>
+                <div id="flush-collapse-11" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            JVM is a virtual machine which compiles java source code into platform independent
+                            bytecode and interprets bytecode into platform specific machine level code.
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-12" aria-expanded="false">
-                            What is a constructor?
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-12" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                A constructor is used to initialise the data members of a class. It has the same name
-                                as the class and has no return type, not even void.
-                                <br>
-                                There are two types of constructors:
-                            </p>
-                            <ol>
-                                <li>
-                                    Default Constructor
-                                </li>
-                                <li>
-                                    Parameterized Constructor
-                                </li>
-                            </ol>
-                        </div>
+                        What is a constructor?
+                    </button>
+                </h2>
+                <div id="flush-collapse-12" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            A constructor is used to initialise the data members of a class. It has the same name
+                            as the class and has no return type, not even void.
+                            <br>
+                            There are two types of constructors:
+                        </p>
+                        <ol>
+                            <li>
+                                Default Constructor
+                            </li>
+                            <li>
+                                Parameterized Constructor
+                            </li>
+                        </ol>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-13" aria-expanded="false">
-                            Method overloading vs Method overriding
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-13" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <div class="container border p-3">
-                                <div class="row">
-                                    <div class="col-6">
-                                        Method Overloading
-                                    </div>
-                                    <div class="col-6">
-                                        Method Overriding
-                                    </div>
+                        Method overloading vs Method overriding
+                    </button>
+                </h2>
+                <div id="flush-collapse-13" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div class="container border p-3">
+                            <div class="row">
+                                <div class="col-6">
+                                    Method Overloading
                                 </div>
-                                <hr>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <ul class="m-0">
-                                            <li>
-                                                In method overloading, methods must have the same name and different
-                                                signatures.
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-6">
-                                        <ul class="m-0">
-                                            <li>
-                                                In method overriding, methods must have the same name and same
-                                                signature.
-                                            </li>
-                                        </ul>
-                                    </div>
+                                <div class="col-6">
+                                    Method Overriding
                                 </div>
-                                <hr>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <ul class="m-0">
-                                            <li>
-                                                Method overloading may or may not require inheritance.
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-6">
-                                        <ul class="m-0">
-                                            <li>
-                                                Method overriding always needs inheritance.
-                                            </li>
-                                        </ul>
-                                    </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="m-0">
+                                        <li>
+                                            In method overloading, methods must have the same name and different
+                                            signatures.
+                                        </li>
+                                    </ul>
                                 </div>
-                                <hr>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <ul class="m-0">
-                                            <li>
-                                                It occurs within the class.
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-6">
-                                        <ul class="m-0">
-                                            <li>
-                                                It is performed in two classes with inheritance relationships.
-                                            </li>
-                                        </ul>
-                                    </div>
+                                <div class="col-6">
+                                    <ul class="m-0">
+                                        <li>
+                                            In method overriding, methods must have the same name and same
+                                            signature.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="m-0">
+                                        <li>
+                                            Method overloading may or may not require inheritance.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="m-0">
+                                        <li>
+                                            Method overriding always needs inheritance.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="m-0">
+                                        <li>
+                                            It occurs within the class.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="m-0">
+                                        <li>
+                                            It is performed in two classes with inheritance relationships.
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-14" aria-expanded="false">
-                            What is Polymorphism
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-14" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                <i>Polymorphism</i> is the ability of an object to take on more than one form. The most
-                                common use of polymorphism in OOP occurs when a parent class reference is used to refer
-                                to a child class object.
-                                <br>Eg:-
-                            </p>
-                            <ol>
-                                <li>Function overloading</li>
-                                <li>Polymorphism in operators:- '+' is used for addition as well as during string
-                                    concatenation
-                                </li>
-                            </ol>
-                        </div>
+                        What is Polymorphism
+                    </button>
+                </h2>
+                <div id="flush-collapse-14" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            <i>Polymorphism</i> is the ability of an object to take on more than one form. The most
+                            common use of polymorphism in OOP occurs when a parent class reference is used to refer
+                            to a child class object.
+                            <br>Eg:-
+                        </p>
+                        <ol>
+                            <li>Function overloading</li>
+                            <li>Polymorphism in operators:- '+' is used for addition as well as during string
+                                concatenation
+                            </li>
+                        </ol>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-15" aria-expanded="false">
-                            What is Encapsulation
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-15" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <ul>
-                                <li>
-                                    Encapsulation is defined as the wrapping up of data under a single unit. It is the
-                                    mechanism that binds together code and the data it manipulates.
-                                </li>
-                                <li>
-                                    Encapsulation can be achieved by Declaring all the variables in the class as private
-                                    and writing public methods in the class to set and get the values of variables
-                                </li>
-                            </ul>
-                        </div>
+                        What is Encapsulation
+                    </button>
+                </h2>
+                <div id="flush-collapse-15" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>
+                                Encapsulation is defined as the wrapping up of data under a single unit. It is the
+                                mechanism that binds together code and the data it manipulates.
+                            </li>
+                            <li>
+                                Encapsulation can be achieved by Declaring all the variables in the class as private
+                                and writing public methods in the class to set and get the values of variables
+                            </li>
+                        </ul>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-16" aria-expanded="false">
-                            What is Static Keyword?
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-16" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <ul>
-                                <li>The static modifier makes a member (variables or methods) of a class independent of
-                                    the objects of the class.
-                                </li>
-                                <li>
-                                    It is used when we are defining properties that are common to all
-                                    objects in the class.
-                                </li>
-                                <li>
-                                    A <strong>static block</strong> is a set of instructions that is run only once when
-                                    a class is loaded into memory.
-                                </li>
-                            </ul>
-                        </div>
+                        What is Static Keyword?
+                    </button>
+                </h2>
+                <div id="flush-collapse-16" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>The static modifier makes a member (variables or methods) of a class independent of
+                                the objects of the class.
+                            </li>
+                            <li>
+                                It is used when we are defining properties that are common to all
+                                objects in the class.
+                            </li>
+                            <li>
+                                A <strong>static block</strong> is a set of instructions that is run only once when
+                                a class is loaded into memory.
+                            </li>
+                        </ul>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-17" aria-expanded="false">
-                            What is inheritance
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-17" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                <i> inheritance</i> is the process by which a subclass or child class inherits or
-                                acquires the properties of a superclass or parent class.
-                            </p>
-                        </div>
+                        What is inheritance
+                    </button>
+                </h2>
+                <div id="flush-collapse-17" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            <i> inheritance</i> is the process by which a subclass or child class inherits or
+                            acquires the properties of a superclass or parent class.
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-18" aria-expanded="false">
-                            Types of inheritance
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-18" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <div class="container-sm">
-                                <div class="row">
-                                    <div class="col-12 col-lg-6">
-                                        <img src="./images/inheritance-1-to-3.png" class="img-fluid" alt="..."
-                                            srcset="">
-                                    </div>
-                                    <div class="col-12 col-lg-6">
-                                        <img src="./images/inheritance-4-to-5.jpg" class="img-fluid" alt="..."
-                                            srcset="">
-                                    </div>
+                        Types of inheritance
+                    </button>
+                </h2>
+                <div id="flush-collapse-18" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div class="container-sm">
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <img src="./images/inheritance-1-to-3.png" class="img-fluid" alt="..."
+                                         srcset="">
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <img src="./images/inheritance-4-to-5.jpg" class="img-fluid" alt="..."
+                                         srcset="">
                                 </div>
                             </div>
-                            <p>
-                                There are 5 types of inheritance:-
-                                <br>
-                            </p>
-                            <ol>
-                                <li>
-                                    <strong>Single inheritance</strong>:- In single inheritance, subclasses inherit the
-                                    features of one superclass.
-                                </li>
-                                <li>
-                                    <strong>Multilevel inheritance</strong>:- In Multilevel inheritance, a derived class
-                                    inherits from a base class and also acts as the base class to other class, i.e,
-                                    other classes also inherit from that derived class.
-                                </li>
-                                <li>
-                                    <strong>Hierarchical inheritance</strong>:- In Hierarchical inheritance, one class
-                                    serves as a superclass (base class) for more than one subclass.
-                                </li>
-                                <li>
-                                    <strong>Multiple inheritance</strong>:- In Multiple inheritances, one class can have
-                                    more than one superclass and inherit features from all parent classes. Java does not
-                                    support multiple inheritances with classes. In java, we can achieve multiple
-                                    inheritances only through interfaces.
-                                </li>
-                                <li>
-                                    <strong>Hybrid inheritance</strong>:- It is a mix of two or more of the above types
-                                    of inheritance. Since java does not support multiple inheritances with classes,
-                                    hybrid inheritance is also not possible with classes. In java, we can achieve hybrid
-                                    inheritance only through interfaces.
-                                </li>
-                            </ol>
                         </div>
+                        <p>
+                            There are 5 types of inheritance:-
+                            <br>
+                        </p>
+                        <ol>
+                            <li>
+                                <strong>Single inheritance</strong>:- In single inheritance, subclasses inherit the
+                                features of one superclass.
+                            </li>
+                            <li>
+                                <strong>Multilevel inheritance</strong>:- In Multilevel inheritance, a derived class
+                                inherits from a base class and also acts as the base class to other class, i.e,
+                                other classes also inherit from that derived class.
+                            </li>
+                            <li>
+                                <strong>Hierarchical inheritance</strong>:- In Hierarchical inheritance, one class
+                                serves as a superclass (base class) for more than one subclass.
+                            </li>
+                            <li>
+                                <strong>Multiple inheritance</strong>:- In Multiple inheritances, one class can have
+                                more than one superclass and inherit features from all parent classes. Java does not
+                                support multiple inheritances with classes. In java, we can achieve multiple
+                                inheritances only through interfaces.
+                            </li>
+                            <li>
+                                <strong>Hybrid inheritance</strong>:- It is a mix of two or more of the above types
+                                of inheritance. Since java does not support multiple inheritances with classes,
+                                hybrid inheritance is also not possible with classes. In java, we can achieve hybrid
+                                inheritance only through interfaces.
+                            </li>
+                        </ol>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-19" aria-expanded="false">
-                            <p class="m-0">Use of <strong>super</strong> keyword</p>
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-19" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                <strong>super</strong> keyword is used
-                            </p>
-                            <ul>
-                                <li>to call the constructor of baseclass from the constructor of child class.</li>
-                                <li>to refer to superclass data-member or function when it has the same name as subclass
-                                    data member or function.
-                                </li>
-                            </ul>
-                        </div>
+                        <p class="m-0">Use of <strong>super</strong> keyword</p>
+                    </button>
+                </h2>
+                <div id="flush-collapse-19" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            <strong>super</strong> keyword is used
+                        </p>
+                        <ul>
+                            <li>to call the constructor of baseclass from the constructor of child class.</li>
+                            <li>to refer to superclass data-member or function when it has the same name as subclass
+                                data member or function.
+                            </li>
+                        </ul>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-20" aria-expanded="false">
-                            In what sequence constructors are executed in Java for subclasses
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-20" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>In order of base class to derived class. Super class constructor is called first using
-                                <strong>super</strong> keyword.
-                            </p>
-                        </div>
+                        In what sequence constructors are executed in Java for subclasses
+                    </button>
+                </h2>
+                <div id="flush-collapse-20" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>In order of base class to derived class. Super class constructor is called first using
+                            <strong>super</strong> keyword.
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-21" aria-expanded="false">
-                            Dynamic method dispatch / Runtime polymorphism
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-21" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                <i>Dynamic method dispatch</i> is the mechanism by which a call to an overridden method
-                                is resolved at run time, rather than compile time. Method overriding is one of the ways
-                                in which Java supports Runtime Polymorphism.
-                            </p>
-                            eg:-
-                            <code>
+                        Dynamic method dispatch / Runtime polymorphism
+                    </button>
+                </h2>
+                <div id="flush-collapse-21" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            <i>Dynamic method dispatch</i> is the mechanism by which a call to an overridden method
+                            is resolved at run time, rather than compile time. Method overriding is one of the ways
+                            in which Java supports Runtime Polymorphism.
+                        </p>
+                        eg:-
+                        <code>
                                 <pre>
 // A Java program to illustrate Dynamic Method
 // Dispatch using hierarchical inheritance
@@ -825,233 +826,233 @@ class Dispatch
 }
                                 </pre>
                         </code>
-                            <strong>Output</strong>
-                            <samp>
+                        <strong>Output</strong>
+                        <samp>
                                 <pre>
 Inside A's m1 method
 Inside B's m1 method
 Inside C's m1 method
                                 </pre>
-                            </samp>
-                        </div>
+                        </samp>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-22" aria-expanded="false">
-                            Abstract class in java
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-22" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                A class which is declared as abstract is known as an abstract class. It can have
-                                abstract and non-abstract methods. It needs to be extended and its abstract method
-                                implemented. It cannot be instantiated.
-                            </p>
-                        </div>
+                        Abstract class in java
+                    </button>
+                </h2>
+                <div id="flush-collapse-22" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            A class which is declared as abstract is known as an abstract class. It can have
+                            abstract and non-abstract methods. It needs to be extended and its abstract method
+                            implemented. It cannot be instantiated.
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-23" aria-expanded="false">
-                            <p class="m-0">Use of <strong>final</strong> keyword</p>
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-23" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                Java final keyword is a non-access specifier that is used to restrict a class, variable,
-                                and method.
-                            </p>
-                            <ul>
-                                <li>
-                                    If we initialize a variable with the final keyword, then we cannot modify its value.
-                                </li>
-                                <li>
-                                    If we declare a method as final, then it cannot be overridden by any subclasses.
-                                </li>
-                                <li>
-                                    If we declare a class as final, we restrict the other classes to inherit or extend
-                                    it.
-                                </li>
-                            </ul>
-                        </div>
+                        <p class="m-0">Use of <strong>final</strong> keyword</p>
+                    </button>
+                </h2>
+                <div id="flush-collapse-23" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            Java final keyword is a non-access specifier that is used to restrict a class, variable,
+                            and method.
+                        </p>
+                        <ul>
+                            <li>
+                                If we initialize a variable with the final keyword, then we cannot modify its value.
+                            </li>
+                            <li>
+                                If we declare a method as final, then it cannot be overridden by any subclasses.
+                            </li>
+                            <li>
+                                If we declare a class as final, we restrict the other classes to inherit or extend
+                                it.
+                            </li>
+                        </ul>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-24" aria-expanded="false">
-                            <p class="m-0">Difference between <strong>final</strong>, <strong>finally</strong> and
-                                <strong>finalize</strong>
-                            </p>
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-24" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <img src="./images/final-vs-finally-vs-finalize.jpg" class="img-fluid" alt="...">
-                        </div>
+                        <p class="m-0">Difference between <strong>final</strong>, <strong>finally</strong> and
+                            <strong>finalize</strong>
+                        </p>
+                    </button>
+                </h2>
+                <div id="flush-collapse-24" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <img src="./images/final-vs-finally-vs-finalize.jpg" class="img-fluid" alt="...">
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-25" aria-expanded="false">
-                            <p class="m-0">Use of <strong>this</strong> keyword</p>
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-25" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                <strong>this</strong> keyword refers to the current object in a method or constructor.
-                                This is used to eliminate confusion between class attributes and method parameters with
-                                the same name.
-                            </p>
-                        </div>
+                        <p class="m-0">Use of <strong>this</strong> keyword</p>
+                    </button>
+                </h2>
+                <div id="flush-collapse-25" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            <strong>this</strong> keyword refers to the current object in a method or constructor.
+                            This is used to eliminate confusion between class attributes and method parameters with
+                            the same name.
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-26" aria-expanded="false">
-                            <p class="m-0">Difference between <strong>default</strong>, <strong>public</strong>,
-                                <strong>protected</strong> and <strong>private</strong>.
-                            </p>
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-26" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <div class="container">
-                                <div class="row">
-                                    <img src="./images/access-modifiers-in-java.png" class="img-fluid" alt="" srcset="">
-                                </div>
+                        <p class="m-0">Difference between <strong>default</strong>, <strong>public</strong>,
+                            <strong>protected</strong> and <strong>private</strong>.
+                        </p>
+                    </button>
+                </h2>
+                <div id="flush-collapse-26" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div class="container">
+                            <div class="row">
+                                <img src="./images/access-modifiers-in-java.png" class="img-fluid" alt="" srcset="">
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-27" aria-expanded="false">
-                            Define Interface
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-27" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                Like a class, an interface can have methods and variables, but the methods declared in
-                                an interface are by default abstract (only method signature, no body).
-                            </p>
-                        </div>
+                        Define Interface
+                    </button>
+                </h2>
+                <div id="flush-collapse-27" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            Like a class, an interface can have methods and variables, but the methods declared in
+                            an interface are by default abstract (only method signature, no body).
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-28" aria-expanded="false">
-                            Partial Implementation of Interface
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-28" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                If any Interface is partially implemented then that class has to be declared as
-                                Abstract.
-                            </p>
-                        </div>
+                        Partial Implementation of Interface
+                    </button>
+                </h2>
+                <div id="flush-collapse-28" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            If any Interface is partially implemented then that class has to be declared as
+                            Abstract.
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-29" aria-expanded="false">
-                            Types of Polymorphism
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-29" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                There are two types of Polymorphism.
-                            </p>
-                            <ol>
-                                <li>
-                                    Runtime Polymorphism / Dynamic Method Dispatch
-                                </li>
-                                <li>
-                                    Compile-time Polymorphism (Method Overloading)
-                                </li>
-                            </ol>
-                        </div>
+                        Types of Polymorphism
+                    </button>
+                </h2>
+                <div id="flush-collapse-29" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            There are two types of Polymorphism.
+                        </p>
+                        <ol>
+                            <li>
+                                Runtime Polymorphism / Dynamic Method Dispatch
+                            </li>
+                            <li>
+                                Compile-time Polymorphism (Method Overloading)
+                            </li>
+                        </ol>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-30" aria-expanded="false">
-                            What is an Exception
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-30" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                An Exception is an condition caused by Runtime error.
-                            </p>
-                        </div>
+                        What is an Exception
+                    </button>
+                </h2>
+                <div id="flush-collapse-30" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            An Exception is an condition caused by Runtime error.
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-31" aria-expanded="false">
-                            How an exception is handled
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-31" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                Using Try Catch Block.
-                            </p>
-                        </div>
+                        How an exception is handled
+                    </button>
+                </h2>
+                <div id="flush-collapse-31" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            Using Try Catch Block.
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-32" aria-expanded="false">
-                            <p class="m-0">Use of <strong>finally</strong> keyword</p>
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-32" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                Gets executed after the catch blocks even if exception did not occur.
-                            </p>
-                            <code>
+                        <p class="m-0">Use of <strong>finally</strong> keyword</p>
+                    </button>
+                </h2>
+                <div id="flush-collapse-32" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            Gets executed after the catch blocks even if exception did not occur.
+                        </p>
+                        <code>
                             <pre>
 try {
     System.out.println("The count is " + Integer.parseInt(count));
@@ -1062,163 +1063,163 @@ try {
 }
                             </pre>
                         </code>
-                        </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-33" aria-expanded="false">
-                            <p class="m-0">Use of <strong>throw</strong> keyword</p>
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-33" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                The throw keyword in Java is used to declare exceptions that can occur during the
-                                execution of a program.
-                                <br><br>
-                                Example:
-                                <br>
-                                <code>
+                        <p class="m-0">Use of <strong>throw</strong> keyword</p>
+                    </button>
+                </h2>
+                <div id="flush-collapse-33" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            The throw keyword in Java is used to declare exceptions that can occur during the
+                            execution of a program.
+                            <br><br>
+                            Example:
+                            <br>
+                            <code>
                                 throw new ArithmeticException("/ by zero");
                             </code>
-                            </p>
-                        </div>
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-34" aria-expanded="false">
-                            <p class="m-0">Abstract method in java</p>
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-34" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                Abstract method is a method that is declared in an abstract class and does not have
-                                implementation.
-                            </p>
-                        </div>
+                        <p class="m-0">Abstract method in java</p>
+                    </button>
+                </h2>
+                <div id="flush-collapse-34" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            Abstract method is a method that is declared in an abstract class and does not have
+                            implementation.
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapse-35" aria-expanded="false">
-                            <p class="m-0">Use of <strong>throws</strong> keyword</p>
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-35" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                throws is a keyword in Java which is used in the signature of method to indicate that
-                                this method might throw one of the listed type exceptions. The caller to these methods
-                                has to handle the exception using a try-catch block.
-                                <br><br>
-                                Eg:-
-                                <br>
-                                <code>
+                        <p class="m-0">Use of <strong>throws</strong> keyword</p>
+                    </button>
+                </h2>
+                <div id="flush-collapse-35" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            throws is a keyword in Java which is used in the signature of method to indicate that
+                            this method might throw one of the listed type exceptions. The caller to these methods
+                            has to handle the exception using a try-catch block.
+                            <br><br>
+                            Eg:-
+                            <br>
+                            <code>
                                 method_name(parameters) throws exception_list
                             </code>
-                                <br>
-                                Here exception_list is a comma separated list of all the exceptions which a method might
-                                throw.
-                            </p>
-                        </div>
+                            <br>
+                            Here exception_list is a comma separated list of all the exceptions which a method might
+                            throw.
+                        </p>
                     </div>
                 </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapse-36" aria-expanded="false">
-                            <p class="m-0">
-                                Use of <strong>Throwable</strong> keyword
-                            </p>
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-36" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                The Throwable class is the superclass of every error and exception in the Java language.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapse-37" aria-expanded="false">
-                            What is Multithreading
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-37" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                Multithreading is a conceptual programming paradigm where a program is devided into two
-                                or more subprograms,which can be executed at the same time at parallel for maximum
-                                utilization of CPU.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapse-38" aria-expanded="false">
-                            What is a Thread
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-38" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                A Thread is similar to a program that has a single flow of control. It has a begining, a
-                                body and a end, and executes commands sequentially. Since in Java they are subprograms
-                                of a main program and share same memory space, they are known as lightweight threads or
-                                lightweight processes.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapse-39" aria-expanded="false">
-                            <p class="m-0">Which method in thread calls the running state or the <strong>run</strong>
-                                method</p>
-                        </button>
-                    </h2>
-                    <div id="flush-collapse-39" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                In thread <strong>start</strong> calls the <strong>run</strong> method.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
             </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse-36" aria-expanded="false">
+                        <p class="m-0">
+                            Use of <strong>Throwable</strong> keyword
+                        </p>
+                    </button>
+                </h2>
+                <div id="flush-collapse-36" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            The Throwable class is the superclass of every error and exception in the Java language.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse-37" aria-expanded="false">
+                        What is Multithreading
+                    </button>
+                </h2>
+                <div id="flush-collapse-37" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            Multithreading is a conceptual programming paradigm where a program is devided into two
+                            or more subprograms,which can be executed at the same time at parallel for maximum
+                            utilization of CPU.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse-38" aria-expanded="false">
+                        What is a Thread
+                    </button>
+                </h2>
+                <div id="flush-collapse-38" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            A Thread is similar to a program that has a single flow of control. It has a begining, a
+                            body and a end, and executes commands sequentially. Since in Java they are subprograms
+                            of a main program and share same memory space, they are known as lightweight threads or
+                            lightweight processes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse-39" aria-expanded="false">
+                        <p class="m-0">Which method in thread calls the running state or the <strong>run</strong>
+                            method</p>
+                    </button>
+                </h2>
+                <div id="flush-collapse-39" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            In thread <strong>start</strong> calls the <strong>run</strong> method.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-        </script>
+</script>
 </body>
 
 </html>
